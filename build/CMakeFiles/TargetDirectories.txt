@@ -1,8 +1,0 @@
-/home/gidorah/Epitech/Tek03/testR-Type/build/CMakeFiles/rebuild_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/CMakeFiles/edit_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Client/CMakeFiles/rebuild_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Client/CMakeFiles/edit_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Client/CMakeFiles/r-type_client.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Server/CMakeFiles/rebuild_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Server/CMakeFiles/edit_cache.dir
-/home/gidorah/Epitech/Tek03/testR-Type/build/Server/CMakeFiles/r-type_server.dir
