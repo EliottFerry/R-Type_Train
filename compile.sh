@@ -15,7 +15,7 @@ function Create(){
     if [ ! -d "build" ];
     then
         mkdir build
-        cd build/ && cmake .. && cd ../
+        cd build/ && cmake .. && conan install .. --build=missing && cd ../
         printf "The program returned : "
         echo $?
         printf "\n"
@@ -36,7 +36,7 @@ function Run(){
     then
         printf "Your build file does not exist.\n"
     else
-        cd build/ && make $VERBOSE -j && cd ../ && $VALGRIND ./r-type_server > log.txt 2>&1
+        cd build/ && cmake .. -G "Unix Makefiles" && cmake --build . && cd ../ && $VALGRIND ./r-type_server > log.txt 2>&1
         printf "The program returned : "
         echo $?
         printf "\n"
